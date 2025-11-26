@@ -1,0 +1,18 @@
+<Container>
+  <Name>vdr-icam</Name>
+  <Repository>alexandro77/vdr-icam</Repository>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/Alexandro77/unraid-vdr-icam</Support>
+  <Project>https://github.com/Alexandro77/unraid-vdr-icam</Project>
+  <Overview>VDR server with dvbapi ICAM support</Overview>
+  <Category>TV</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Alexandro77/unraid-vdr-icam/main/icon.png</Icon>
+  <MinMem>512</MinMem>
+  <MaxMem>4096</MaxMem>
+  <Config Name="vdr-config" Target="/etc/vdr" Mode="rw" Type="Path"/>
+</Container>
